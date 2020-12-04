@@ -1,4 +1,4 @@
-OPENQASM 3.0; //Version
+OPENQASM 2.0; //Version
 include "qelib1.inc"; //Import gates
 
 qreg q[2]; //Initializing two qubits and storing them in q
