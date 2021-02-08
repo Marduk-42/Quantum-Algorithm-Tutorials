@@ -2,7 +2,7 @@ from qiskit import Aer, execute, QuantumCircuit, visualization
 import matplotlib.pyplot as plt
 
 
-qc = QuantumCircuit.from_qasm_file('Bell test.py')
+qc = QuantumCircuit.from_qasm_file('Bell test.qasm')
 backend = Aer.get_backend('qasm_simulator')
 job = execute(qc, backend, shots=2048)
 result = job.result()
